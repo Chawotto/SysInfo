@@ -19,19 +19,19 @@
 
    ```bash
    git clone https://github.com/Chawotto/SysInfo
-   cd SysInfo
+   cd sysinfo
    ```
 
 2. Установить необходимые зависимости:
 
    ```bash
-   sudo apt-get install build-essential libncurses5-dev
+   sudo apt install build-essential libncurses5-dev
    ```
 
 3. Собрать проект:
 
    ```bash
-   g++ -o system_monitor main.cpp -lncurses -std=c++17
+   g++ -o SysInfo sysinfo.cpp -lncurses -std=c++17
    ```
 
 4. Запустить программу:
