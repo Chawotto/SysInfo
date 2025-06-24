@@ -25,7 +25,7 @@
 2. Установить необходимые зависимости:
 
    ```bash
-   sudo apt install build-essential libncurses5-dev
+   sudo apt install build-essential libncurses5-dev lm-sensors
    ```
 
 3. Собрать проект:
